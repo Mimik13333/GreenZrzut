@@ -1,0 +1,11 @@
+name: GreenZrzut
+version: 1.0.0
+main: pl.mimik.greenzrzut.GreenZrzut
+api-version: '1.21'
+commands:
+  greenzrzut:
+    description: Panel GreenZrzut
+    permission: greenzrzut.admin
+permissions:
+  greenzrzut.admin:
+    default: op
